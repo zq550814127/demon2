@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/ *早期浏览器*/
+    user-select:none;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.nav{
+    position:absolute;
+    width: 100%;
+    height: 64px;
+    background-color:black;
+    overflow: hidden;
+    min-width: 1215px;
+}
+.nav a{
+    display: block;
+    margin: 14px 0 0 19px;
+    height: 31px;
+}
+.nav a img{
+    height: 31px;
+    width: auto;
+}
+.main{
+    position: absolute;
+    width: 100%;
+    height:575px;
+    top: 64px;
+    min-width: 1215px;
+    background: url("../img/index_dim.jpg")no-repeat center;
+}
+.next{
+    position:absolute;
+    width: 100%;
+    height:879px;
+    background-color: white;
+    top: 639px;
+}
+.bottom{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    top:1518px;
+    background-color: #282828;
+}
+.main-p{
+    width: 377px;
+    margin: 68px auto 0;
+    height: 103px;
+    background: url("../img/drop_logo.png")
+}
+.main-img{
+    width: 100%;
+    height: 219px;
+    margin-top: 25px;
+}
+.block{
+    width:1215px;
+    height: 100%;
+    margin: 0 auto;
+}
+.block-group{
+    position: relative;
+    float: left;
+    margin-right:32px;
+    width:217px;
+    height:217px;
+    border-radius: 50%;
+    background-color: red;
+}
+.block-group img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.block-group:nth-child(1){
+    background: url("../img/group.png");
+    background-position-x: 0px;
+}
+.block-group:nth-child(2){
+    background: url("../img/group.png");
+    background-position-x: -217px;
+}
+.block-group:nth-child(3){
+    background: url("../img/group.png");
+    background-position-x: -434px;
+}
+.block-group:nth-child(4){
+    background: url("../img/group.png");
+    background-position-x: -651px;
+}
+.block-group:nth-child(5){
+    margin-right: 0px;
+    background: url("../img/group.png");
+    background-position-x: -868px;
+}
+.face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 51%;
+    opacity: 0.7;
+}
+.face img{
+    width: 100%;
+    height: 100%;
+}
+.face-p{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.dian{
+    position: relative;
+    width: 216px;
+    height: 108px;
+    margin: -108px auto 0;
+    cursor: pointer;
+}
+.down{
+    position:relative;
+    width: 100%;
+    height: 35px;
+    margin:0;
+}
+.down img{
+    position: absolute;
+    margin-left: 88px;
+    cursor: pointer;
+}
+.dian-top{
+    position:absolute;
+    width: 100%;
+    height: 90%;
+    z-index: 1;
+}
+.dian-top-img{
+    position: relative;
+    width: 85%;
+    height: 24px;
+    margin: 0 auto;
+}
+.dian-top-img img{
+    width: 100%;
+    height: 100%;
+}
+.dian-p{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+.dian-p p{
+    text-align: center;
+    font-size: 15px;
+    color: #9c9c9c;
+}
+.dian-bottom{
+    position:absolute;
+    top: 90%;
+    width: 100%;
+    height: 10%;
+    background-color:rgb(250,154,28);
+}
+.next{
+    min-width: 1215px;
+}
+.next-top{
+    position: relative;
+    width: 27.8%;
+    height: 103px;
+    margin:50px auto 0;
+}
+.next-top img{
+    width: 100%;
+    height: 100%;
+}
+.next-p{
+    display: block;
+    position: relative;
+    width: 65%;
+    height: auto;
+    margin: 50px auto 0;
+}
+.next-p p{
+    font-size: 18px;
+    color: #979797;
+    text-indent: 2em;
+    text-align: left;
+    line-height: 26px;
+}
+.next-form{
+    position: relative;
+    width:788px;
+    height: 500px;
+    margin: 50px auto 0;
+}
+.form-left{
+    position:relative;
+    padding-top: 25px;
+    width: 404.7px;
+    height: 100%;
+    float: left;
+}
+.form-left p{
+    height: 1.5em;
+    line-height: 1.5em;
+    color: #565656;
+    font-family:"Adobe 黑体 Std R";
+    font-size: 18px;
+}
+.form-right{
+    position:relative;
+    float: right;
+    width:324px;
+    height: 100%;
+}
+.form{
+    position: relative;
+    width: 100%;
+    height: 63px;
+    margin-bottom: 10px;
+}
+.form-text{
+    position: relative;
+    width: 100%;
+    height: 27px;
+}
+.form input{
+    position: relative;
+    width:314px;
+    height: 36px;
+    padding-left: 6px;
+}
+.form input:focus,.form textarea:focus{
+    outline: #f9991b solid 1px;
+    border: 1px solid #f9991b;
+}
+.form textarea{
+    width: 314px;
+    height: 172px;
+    padding-left: 6px;
+    resize: none;
+}
+.form-text span{
+    color: orange;
+}
+.form-botton{
+    position: relative;
+    height: 52px;
+    width: 100%;
+    margin:0px;
+    background-color: orange;
+    color: white;
+    font-size: larger;
+    border: 0px;
+}
+.bottom{
+    min-width: 1215px;
+}
+.bottom-na{
+    position: relative;
+    width: 1024px;
+    height: 112px;
+    margin: 30px auto;
+}
+.bottom-p{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 24px;
+    color: white;
+}
+.bottom-a{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+.bottom-a-p{
+    position: relative;
+    float: left;
+    width: 7em;
+    margin: 7px 20px;
+}
+.bottom-a-p a{
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.bottom-a-p a:hover{
+    text-decoration: underline;
+}
+.p{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    height: 25px;
+}
+.p p{
+    text-align: center;
+    color: #676767;
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 1s opacity;
+}
+.bg1{
+    background: url("../img/team_dim.jpg");
+    background-size: cover;
+    opacity: 0;
+}
+.bg2{
+    background: url("../img/group_dim.jpg");
+    background-size: cover;
+    opacity: 0;
+}
+.bg3{
+    background: url("../img/pro_dim.jpg");
+    background-size: cover;
+    opacity: 0;
+}
+.bg4{
+    background: url("../img/partner_dim.jpg");
+    background-size: cover;
+    opacity: 0;
+}
+.bg5{
+    background: url("../img/recruit.jpg");
+    background-size: cover;
+    opacity: 0;
+}
